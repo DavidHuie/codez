@@ -10,7 +10,7 @@ Usage:
 require "codez"
 
 Codez::Fips.from_zip("14410")
-# => 36055
+# => "36055"
 ```
 
 ## Contributing to codez
