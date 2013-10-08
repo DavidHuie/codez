@@ -14,17 +14,24 @@ Gem::Specification.new do |s|
   s.email = "david@nationbuilder.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     ".document",
     ".rspec",
+    ".ruby-gemset",
+    ".ruby-version",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
-    "README.rdoc",
+    "README.md",
     "Rakefile",
     "VERSION",
+    "codez.gemspec",
     "lib/codez.rb",
+    "lib/codez/data/zip_to_fips.json",
+    "lib/codez/fips.rb",
+    "spec/fips_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "https://github.com/DavidHuie/codez"
