@@ -8,7 +8,10 @@ class Codez::Fips
   self.data = JSON.load(data_file)
 
   def self.from_zip(zip)
-    data[zip.to_s]
+    data[zip.to_s].to_a[0]
   end
 
+  def self.area_code(zip)
+    data[zip.to_s].to_a[1]
+  end
 end

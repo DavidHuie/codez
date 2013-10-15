@@ -18,4 +18,17 @@ describe Codez::Fips do
 
   end
 
+  describe "#area_code" do
+    it "returns the correct area code" do
+      Codez::Fips.area_code("91344").should eq "818"
+    end
+
+    it "works with integers" do
+      Codez::Fips.area_code(91344).should eq "818"
+    end
+
+    it "returns nil if it gets an incorrect zip" do
+      Codez::Fips.area_code("00000").should be_nil
+    end
+  end
 end
