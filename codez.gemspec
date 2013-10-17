@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["David Huie"]
-  s.date = "2013-10-08"
+  s.date = "2013-10-17"
   s.description = "A collection of various mappings, such as fips to zip"
   s.email = "david@nationbuilder.com"
   s.extra_rdoc_files = [
@@ -29,8 +29,10 @@ Gem::Specification.new do |s|
     "VERSION",
     "codez.gemspec",
     "lib/codez.rb",
+    "lib/codez/area_code.rb",
     "lib/codez/data/zip_to_fips.json",
     "lib/codez/fips.rb",
+    "lib/codez/state.rb",
     "spec/fips_spec.rb",
     "spec/spec_helper.rb"
   ]
